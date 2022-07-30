@@ -1,0 +1,375 @@
+@media all and (min-width: 768px) {
+    .navbar-nav .nav-item .dropdown-menu {
+        display: none;
+    }
+
+    .navbar-nav .nav-item:hover .dropdown-menu {
+        display: block;
+    }
+
+    .animated-drop {
+        animation: animatedropzoom 0.4s;
+    }
+
+    @keyframes animatedropzoom {
+        from {
+            transform: scale(0)
+        }
+
+        to {
+            transform: scale(1)
+        }
+    }
+
+    /* .back-carouse { */
+        /* z-index: -1; */
+    /* } */
+
+
+    .open_form form {
+        transform: rotate(90deg);
+        padding: 10px 0px;
+        border-radius: 5px;
+        position: absolute;
+        margin-left: 200px;
+        background-color: white;
+        border: none;
+        box-shadow: 0 0 6px -2px #adadad;
+        width: 500px;
+        z-index: 1;
+        display: none;
+        top: 75px;
+        right: -20px;
+    }
+
+    .expand .extra-thing:hover .open_form form {
+        display: block;
+        /* transition: all .5s ease 0s; */
+        /* transform-origin: 0 0 0; */
+    }
+
+    .open_form .open_form_submit {
+        margin: 10px;
+        border: 1px solid rgb(255, 1, 128);
+        padding: 8px 190px;
+        font-size: 17px;
+        font-weight: bold;
+        background-color: rgb(255, 1, 128);
+        color: white;
+        border-radius: 30px;
+        margin-top: 30px;
+    }
+
+    .open_form h4 {
+        display: inline-block;
+        text-align: left;
+        color: rgb(255, 1, 128);
+        font-family: 'Raleway', sans-serif;
+        font-size: 30px;
+        padding: 10px 26px;
+        margin-bottom: 20px;
+    }
+
+    .expand .fa-xmark {
+        font-size: 20px;
+        padding: 20px 30px;
+        float: right;
+        color: gray;
+        font-weight: bolder;
+    }
+
+
+
+
+    /* .nav-item:focus .dropdown-menu,
+    .nav-item:focus-within .dropdown-menu,
+    .nav-item:hover .dropdown-menu {
+        display: block;
+        transform: rotateY(45deg);
+        transition-delay: 0.3s;
+    } */
+
+    /* .multidropdown .underrowmulti{
+        width: 25%;
+    } */
+    .multidropdown .mcd1{
+        border-right: 1px solid gray;
+        padding-right: 70px;
+    }
+    .navbar-nav .nav-item .dropdown-menu {
+        margin-top: 5px;
+        /* width: 200px; */
+    }
+
+    li.navmenudivider {
+        display: none;
+    }
+
+    i.plusdropdown {
+        display: none;
+    }
+
+    i.arrowdropdown {
+        position: absolute;
+        right: 11px;
+        top: 23px;
+        color: rgb(0, 0, 0);
+    }
+
+    .socialsites {
+        display: none;
+    }
+
+    .contact_from_box {
+        box-shadow: 0px 0px 40px 0px rgb(0 0 0 / 10%);
+        background: #fff;
+        padding: 27px 40px 27px;
+    }
+
+    .brick-content {
+        padding: 40px 100px;
+    }
+
+    .process-box {
+        display: table-cell;
+        text-align: center;
+        position: relative;
+    }
+
+    .single-subject {
+        display: inline-block;
+        padding: 50px 10px 20px 10px !important;
+        border: 1px solid #f1f1f1 !important;
+    }
+
+    .full-content {
+        width: 650px;
+        box-shadow: 0 5px 15px rgb(0 0 0 / 50%);
+    }
+
+    .modal-heading {
+        text-align: center;
+        font-size: 23px;
+        padding: 20px;
+        font-weight: bold;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: #4888bc;
+    }
+
+    .contact_form {
+        padding: 30px 60px 10px 60px;
+    }
+
+    .input-section input {
+        padding: 6px 85px 4px 10px;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        border: 1px solid #b5b5b5;
+    }
+
+    .mail-box-section .mail-icon img {
+        width: 100px;
+    }
+
+    .png-img-contain {
+        background-image: url(img/subscribe-bg.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: 100px 0px;
+        width: 99.7vw;
+    }
+
+    .button-group-prepend button {
+        padding: 10px 42px;
+        background-color: #fff4;
+        color: rgb(240, 240, 240);
+        font-weight: 500;
+        border: none;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+
+    .comprehensive-text {
+        font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        margin-top: 100px;
+        padding-left: 80px;
+    }
+
+    .comprehensive-text-2 {
+        font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        margin-top: 100px;
+        padding-right: 80px;
+    }
+
+    .comprehensive-content {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .comprehensive-content-2 {
+        margin-top: 80px;
+    }
+
+    .comprehensive-text-3 {
+        font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        padding-left: 100px;
+    }
+
+    .comprehensive-content-3 {
+        margin-top: 100px;
+    }
+
+    .works-wrapper {
+        display: flex;
+        justify-content: center;
+        font-family: "Gotham SSm A", "Gotham SSm B", Helvetica, Arial, Verdana, sans-serif;
+        padding: 20px;
+    }
+
+    .works-wrapper .info-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 520px;
+        margin-right: 20px;
+    }
+
+    .works-wrapper .info {
+        display: flex;
+        align-items: center;
+    }
+
+    .works-wrapper .text-wrapper {
+        display: flex;
+        flex-direction: column;
+        margin-left: 25px;
+        font-family: "Gotham SSm A", "Gotham SSm B", Helvetica, Arial, Verdana, sans-serif;
+    }
+
+    .navbar-nav .accountbutton {
+        display: none;
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        word-spacing: 2px;
+        color: rgb(0, 0, 0);
+        font-weight: 500;
+        padding: 10px 30px;
+        border-radius: 5px;
+        transition: 0.4s;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .quote_section .quote-text,
+    .quote_section .quote-text p {
+        font-size: 80px;
+        line-height: 80px;
+        /* font-weight: 700; */
+        padding: 0px 77px 0px 77px;
+        color: #0a0a0a;
+        /* font-family: "Aspira", sans-serif; */
+        /* font-family: 'Montserrat', sans-serif; */
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+
+    /* ------------------------------------ start mission and vision ----------------------------- */
+    .our-mission-content {
+        display: inline-block;
+        width: 50%;
+        padding: 170px 75px;
+    }
+
+    .our-mission-heading p {
+        margin: 0;
+        padding-bottom: 5px;
+        color: rgb(112, 112, 112);
+        font-weight: 500;
+        font-size: 22px;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    .our-mission-para p {
+        font-family: 'Comfortaa', cursive;
+        font-weight: bold;
+        font-size: 26px;
+    }
+
+    .our-mission-image {
+        float: right;
+        width: 50%;
+        padding: 80px;
+    }
+
+    /* ------------------------------------ end mission and vision ----------------------------- */
+    /* ----------------------------------- start of get-info page -------------------------------- */
+    .info-form {
+        padding: 28px;
+        background-color: rgba(240, 242, 250, 1);
+        border-radius: 5px;
+        box-shadow: 0px 0px 2px 1px rgb(208, 208, 208);
+        border: 1px solid white;
+        margin: 25px;
+        max-width: 70%;
+    }
+
+    .info-intro {
+        color: white;
+        padding: 100px 120px;
+    }
+
+    .academic-support-para p {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 45%;
+        text-align: center;
+    }
+
+    .icon-content {
+        max-width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 70px;
+    }
+
+    .move-top-para a {
+        border: 2px solid white;
+        background: none;
+        color: white;
+        font-weight: 600;
+        font-size: 18px;
+        padding: 16px 80px;
+        text-decoration: none;
+    }
+
+    .move-top-para p {
+        font-size: 40px;
+        font-weight: 300;
+        margin: 0;
+    }
+
+    .icon-description {
+        padding: 30px 50px;
+    }
+
+
+    /* ----------------------------------- end of get-info page -------------------------------- */
+
+    /* ----------------------------------------- Start of signup page --------------------------- */
+
+    /* .sign-up-body {
+        padding: 0;
+    } */
+
+    .imstudent1{
+        float: right;
+    }
+    .imstudent2{
+        float: left;
+    }
+
+
+    /* ----------------------------------------- End of signup page --------------------------- */
+
+}

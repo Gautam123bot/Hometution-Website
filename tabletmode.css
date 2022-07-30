@@ -1,0 +1,647 @@
+@media all and (max-width: 768px) {
+
+
+
+
+
+    .orange-nav-part{
+        display: none;
+    }
+
+/* 
+    .back-carouse {
+        z-index: -1;
+    } */
+
+    .open_form form {
+        transform: rotate(90deg);
+        padding: 10px;
+        border-radius: 5px;
+        position: absolute;
+        background-color: white;
+        border: none;
+        box-shadow: 0 0 6px -2px #adadad;
+        z-index: 1;
+        top: -50px;
+        display: none;
+        left: -104px;
+    }
+
+    .expand .extra-thing:hover .open_form form {
+        display: block;
+        max-width: 100%;
+    }
+
+    .open_form .open_form_submit {
+        margin: 10px;
+        border: 1px solid rgb(255, 1, 128);
+        padding: 8px 59px;
+        font-size: 17px;
+        /* width: 100%; */
+        /* text-align: center; */
+        /* font-family: 'Mukta', sans-serif; */
+        font-weight: bold;
+        background-color: rgb(255, 1, 128);
+        color: white;
+        border-radius: 30px;
+        margin-top: 25px;
+    }
+
+    .open_form h4 {
+        text-align: left;
+        display: inline-block;
+        color: rgb(255, 1, 128);
+        font-family: 'Raleway', sans-serif;
+        font-size: 23px;
+        padding: 0px 10px;
+        margin-bottom: 28px;
+    }
+
+    .expand .fa-xmark {
+        font-size: 20px;
+        padding: 6px 12px;
+        float: right;
+        color: gray;
+        font-weight: bolder;
+    }
+
+
+
+
+    .navbar {
+        background: white;
+        position: relative;
+        z-index: 1;
+    }
+
+    i.plusdropdown {
+        position: absolute;
+        right: 25px;
+        top: 24px;
+        font-weight: bolder;
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+    }
+
+    i.arrowdropdown {
+        display: none;
+    }
+
+    .contact_from_box {
+        box-shadow: 0px 0px 40px 0px rgb(0 0 0 / 10%);
+        background: #fff;
+        padding: 27px 10px 27px;
+    }
+
+    .socialsites {
+        padding-top: 25px;
+        text-align: center;
+        padding-bottom: 45px;
+    }
+
+    .socialsites span i {
+        color: orangered;
+        background: transparent;
+        height: 35px;
+        width: 35px;
+        line-height: 35px;
+        text-align: center;
+        border: 1px solid orangered;
+        border-radius: 5px;
+        transition: .3s;
+    }
+
+    .navbar-content {
+        /* height: 100vh; */
+        transition: 0.5s;
+    }
+
+    .brick-content {
+        padding: 25px 25px;
+    }
+
+    /* .hiringheader{
+        width: 100%;
+    } */
+    .process-box {
+        display: block;
+        margin-bottom: 50px;
+    }
+
+    .single-subject {
+        display: inline-block;
+        padding: 50px 10px 20px 10px !important;
+        width: 50%;
+        border: 1px solid #f1f1f1 !important;
+    }
+
+    .single-button {
+        width: 100%;
+    }
+
+    .full-content {
+        width: 100%;
+        box-shadow: 0 5px 15px rgb(0 0 0 / 50%);
+    }
+
+    .modal-heading {
+        font-size: 23px;
+        padding: 20px;
+        font-weight: bold;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: #4888bc;
+    }
+
+    .input-section input {
+        padding: 6px 44px 4px 10px;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        border: 1px solid #b5b5b5;
+    }
+
+    .contact_form {
+        padding: 30px 20px 5px 20px;
+    }
+
+    .social-flex {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .mail-box-section .mail-icon img {
+        width: 100px;
+    }
+
+    .png-img-contain {
+        background-image: url(img/subscribe-bg.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: 100px 0px;
+        width: 99.7vw;
+    }
+
+    .button-group-prepend button {
+        padding: 10px 42px;
+        background-color: #fff4;
+        color: rgb(240, 240, 240);
+        font-weight: 500;
+        border: none;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+
+    .comprehensive-text {
+        font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        margin-top: 45px;
+        padding: 20px;
+    }
+
+    .comprehensive-text-2 {
+        font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        padding: 20px;
+    }
+
+    .comprehensive-content {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .comprehensive-content-2 {
+        margin-top: 0px;
+    }
+
+    .comprehensive-text-3 {
+        font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        padding: 20px;
+    }
+
+    .comprehensive-content-3 {
+        margin-top: 50px;
+    }
+
+    .works-wrapper {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .works-wrapper .info-wrapper {
+        width: auto;
+        padding: 2px;
+        margin-top: 40px;
+        margin-right: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .info-wrapper .info {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+
+    .info-wrapper .text-wrapper {
+        align-items: center;
+        padding: 30px 0;
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        font-family: "Gotham SSm A", "Gotham SSm B", Helvetica, Arial, Verdana, sans-serif;
+    }
+
+    .works-wrapper .info-text {
+        text-align: center;
+    }
+
+    .social_fixed_footer {
+        display: none;
+    }
+
+    .navbar-nav .accountbutton {
+        background-color: orangered;
+        border: 1px solid white;
+        /* border: none; */
+        padding: 8px 58px;
+        color: white;
+        border-radius: 40px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        font-size: 20px;
+        padding: 10px 23px;
+        border-radius: 5px;
+        transition: 0.4s;
+        font-family: 'Raleway', sans-serif;
+    }
+    .multidropdown .mcd1{
+        /* border-right: 1px solid gray; */
+        padding-right: 15px;
+    }
+
+    .edge-items {
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .edge-item {
+        flex: 1 0 50%;
+    }
+
+    .mr-top-15 {
+        margin-top: 0;
+    }
+
+    .edge-item .item-info {
+        width: 280px;
+    }
+
+
+    .quote_section .quote-text,
+    .quote_section .quote-text p {
+        font-size: 50px;
+        line-height: 50px;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #0a0a0a;
+        padding: 10px;
+    }
+
+    .talented_teachers h1 {
+        font-weight: bolder;
+        color: #4a5256;
+        font-size: 34px;
+        line-height: 36px;
+        margin-bottom: 20px;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .talented_teachers h5 {
+        text-align: center;
+        color: #4b5357;
+        font-size: 16px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .testi-dash {
+        /* border: 3px solid orangered; */
+        height: 5px;
+        background: orangered;
+        width: 20%;
+        display: block;
+        margin: 0 auto;
+        border-bottom-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+    }
+
+
+
+    .equalbox {
+        margin-bottom: 61px;
+    }
+
+    .threebox-contain {
+        width: 92%;
+    }
+
+    .equalbox p {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .seemorebtn {
+        font-size: 14px;
+    }
+
+    .seemorebtn_wrap {
+        text-align: center;
+        padding: 0;
+    }
+
+    .seemorebtn {
+        background: #c74646;
+        color: #ffffff;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        padding: 12px 12px;
+        text-decoration: none;
+        font-size: 14px;
+        border-radius: 5px;
+    }
+
+    .white_headbordr {
+        font-size: 20px;
+    }
+
+    /* -------------------------- start of mission and vision------------------------ */
+    .our-mission-content {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 85%;
+    }
+
+    .our-mission-heading p {
+        margin: 0;
+        padding-bottom: 12px;
+        color: rgb(112, 112, 112);
+        font-weight: 500;
+        font-size: 14px;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        text-align: center;
+    }
+
+    .our-mission-para p {
+        font-family: 'Comfortaa', cursive;
+        font-weight: bold;
+        font-size: 21px;
+        text-align: center;
+    }
+
+    .our-mission-image {
+        padding: 10px;
+    }
+
+    .mission-help {
+        background-image: url(img/yellow-bg.jpg);
+        position: relative;
+        min-height: 425px;
+        margin: 0px 15px 50px 15px;
+    }
+
+
+
+
+    /* -------------------------- end of mission and vision------------------------ */
+    /* -------------------------- start of get-info ------------------------ */
+    .info-form {
+        padding: 28px;
+        background-color: rgba(240, 242, 250, 1);
+        border-radius: 5px;
+        box-shadow: 0px 0px 2px 1px rgb(208, 208, 208);
+        border: 1px solid white;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .info-intro {
+        color: white;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .academic-support-para p {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    .icon-content {
+        max-width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+
+    .move-top-para a {
+        border: 2px solid white;
+        background: none;
+        color: white;
+        font-weight: 600;
+        font-size: 18px;
+        padding: 11px 67px;
+        text-decoration: none;
+    }
+
+    .move-top-para p {
+        font-size: 26px;
+        font-weight: 300;
+        margin: 0;
+    }
+
+    .icon-description {
+        padding: 25px 30px;
+    }
+
+    /* -------------------------- end of get info ------------------------ */
+    /* ----------------------------- Start of Home Modal ---------------------------------- */
+
+    .subscription_img {
+        display: none;
+    }
+
+
+    /* ----------------------------- End of Home Modal ---------------------------------- */
+    /* -------------------------------- Start of Demo Session ------------------------------- */
+    .demo_session .time1 {
+        width: 30%;
+    }
+
+    .demo_calendar {
+        margin-top: 10px;
+        padding-left: 15px;
+    }
+
+
+    /* -------------------------------- End of Demo Session ------------------------------- */
+
+
+    /* ***************************** Start of cotnact-us page **************************** */
+
+    .vc_btn3-container1 {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .vc_btn3-container2 {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+
+    /* ***************************** End of cotnact-us page **************************** */
+
+    /* ************************************ Start of our courses (cse) page ************************ */
+
+
+    .right-img {
+        width: 115%;
+        float: right;
+    }
+
+    .frontphoto .frontheader {
+        position: absolute;
+        /* top: 278px; */
+        margin-top: 134px;
+    }
+
+    .frontheader h1 {
+        color: whtie;
+        font-weight: bolder;
+        font-size: 30px;
+        text-align: right;
+        color: whitesmoke;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .frontheader h2 {
+        color: whitesmoke;
+        font-size: 30px;
+        text-align: right;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .frontheader h3 {
+        color: #ffc527;
+        margin-top: 50px;
+        font-size: 35px;
+        text-align: right;
+        font-weight: 300;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .left-img {
+        display: none;
+        width: 100%;
+    }
+
+    .livecourses img {
+        display: block;
+        margin: 0 auto;
+        width: 312px;
+        height: 104px;
+    }
+
+
+    .whyproject .whyusimage1 {
+        width: 30%;
+    }
+
+    .whyproject .whyusimage2 {
+        width: 30%;
+    }
+
+    .whyproject .whyusimage3 {
+        width: 30%;
+    }
+
+    .whyproject .whyusimage4 {
+        width: 50%;
+    }
+
+    .whyproject .whyprojectcard {
+        background-color: white;
+        padding: 20px 10px;
+        border-radius: 10px;
+        max-width: 100%;
+        height: 320px;
+    }
+
+
+
+    /* ************************************ End of our courses (cse) page ************************ */
+
+    /* *************************************** Start of about us page ****************** */
+
+    .headeraboutus .aboutdash .aboutdashspan1{
+        height: 6px;
+        background: black;
+        width: 8%;
+        display: inline-block;
+        border-top-left-radius: 25px;
+        border-bottom-left-radius: 25px;
+    }
+    .headeraboutus .aboutdash .aboutdashspan2{
+        height: 6px;
+        background: orangered;
+        width: 8%;
+        display: inline-block;
+        border-top-right-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+    .headercontactus .aboutdash .aboutdashspan1{
+        height: 6px;
+        background: black;
+        width: 8%;
+        display: inline-block;
+        border-top-left-radius: 25px;
+        border-bottom-left-radius: 25px;
+    }
+    .headercontactus .aboutdash .aboutdashspan2{
+        height: 6px;
+        background: orangered;
+        width: 8%;
+        display: inline-block;
+        border-top-right-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+    .headeraboutus {
+        text-align: center;
+        margin-bottom: 75px;
+    }
+
+
+    /* *************************************** End of about us page ****************** */
+
+    /* *************************  start of why choose us page ******************* */
+
+    .chooseimglast {
+        max-width: 60%;
+    }
+
+
+    /* *************************  End of why choose us page ******************* */
+
+}

@@ -1,0 +1,19 @@
+@media all and (min-width: 1024px) {
+    .sign-up-body {
+        padding: 0;
+    }
+
+    .left-sign-content .signimg1 {
+        max-width: 100%;
+        position: absolute;
+        bottom: 43px;
+        left: 0;
+    }
+
+    .left-sign-content .signimg2 {
+        max-width: 100%;
+        position: absolute;
+        bottom: 235px;
+        left: 0;
+    }
+}
