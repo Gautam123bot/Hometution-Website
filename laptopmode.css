@@ -36,7 +36,7 @@
         border: none;
         box-shadow: 0 0 6px -2px #adadad;
         width: 500px;
-        z-index: 1;
+        z-index: 31;
         display: none;
         top: 75px;
         right: -20px;

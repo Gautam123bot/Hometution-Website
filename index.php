@@ -69,10 +69,16 @@
                     <p class="openanaccount">Open an accout</p>
                     <!-- <span>Facebook</span> -->
                     <div class="open_form">
-                        <form action="">
+                        <form action="" id="myDialog">
                             <h4>Contact Form</h4>
                             <!-- <button type="button" class="btn-close" aria-label="Close"></button> -->
-                            <i class="fa-solid fa-xmark"></i>
+                            <i class="fa-solid fa-xmark" onclick="closeDialog()"></i>
+                            <script>
+                                var x = document.getElementById("myDialog");
+                                function closeDialog() {
+                                    x.close();
+                                }
+                            </script>
                             <input type="text" name="" id="" placeholder="Name">
                             <input type="text" name="" id="" placeholder="Phone*">
                             <input type="text" name="" id="" placeholder="Email*">

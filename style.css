@@ -89,10 +89,12 @@
 .prev-icon-carousel{
     position: absolute;
     left: 81px;
+    z-index: 0;
 }
 .next-icon-carousel{
     position: absolute;
     right: 81px;
+    z-index: 0;
 }
 
 /* .back-carouse { */
