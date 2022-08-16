@@ -12,8 +12,9 @@
             </div>
         </div>
         <div class="col-md-6 col-sm-6 col-lg-4 black-nav-part">
-            <div class="nav-login" data-bs-toggle="modal" data-bs-target="#myModal2"><i class="fa-solid fa-user-plus"></i><a href="#">Sign Up</a></div>
-        
+            <div class="nav-login" data-bs-toggle="modal" data-bs-target="#myModal2"><i
+                    class="fa-solid fa-user-plus"></i><a href="#">Sign Up</a></div>
+
             <!-- ------------------------------------- The Modal --------------------------------->
 
             <!-- The Modal -->
@@ -27,7 +28,7 @@
                             <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                         </div> -->
 
-                        
+
                         <div class="modal-body sign-up-body">
                             <div class="row">
 
@@ -41,7 +42,8 @@
                                 <div class="col-sm-12 col-md-12 col-lg-8 right-sign-content p-4">
                                     <h4>New User?</h4>
                                     <!-- <button type="button" class="btn-close signupcross" data-bs-dismiss="modal"></button> -->
-                                    <button type="button" class="close cross-close" data-bs-dismiss="modal" aria-label="Close">
+                                    <button type="button" class="close cross-close" data-bs-dismiss="modal"
+                                        aria-label="Close">
                                         <span aria-hidden="true">×</span>
                                     </button>
                                     <p>Create your account now</p>
@@ -50,7 +52,8 @@
                                             <div class="col-sm-12 col-lg-6 col-md-6">
                                                 <div class="imstudent1">
                                                     <div class="input_contain input_con3">
-                                                        <input class="form-check-input check-input3" checked="checked" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                                                        <input class="form-check-input check-input3" checked="checked"
+                                                            type="radio" name="flexRadioDefault" id="flexRadioDefault2">
                                                     </div>
                                                     <label class="guardianlabel" for="">I am a Student</label>
                                                 </div>
@@ -58,7 +61,8 @@
                                             <div class="col-sm-12 col-lg-6 col-md-6">
                                                 <div class="imstudent2">
                                                     <div class="input_contain input_con3">
-                                                        <input class="form-check-input check-input3" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                                                        <input class="form-check-input check-input3" type="radio"
+                                                            name="flexRadioDefault" id="flexRadioDefault2">
                                                     </div>
                                                     <label class="guardianlabel" for="">I am a Parent</label>
                                                 </div>
@@ -76,12 +80,14 @@
                                                 <input type="text" name="" id="" placeholder="Parent's Name">
                                             </div>
                                             <div class="col-sm-12 col-md-12 col-lg-12">
-                                                <div class="signlabel"><label for="">Parent's Email(optional)</label></div>
+                                                <div class="signlabel"><label for="">Parent's Email(optional)</label>
+                                                </div>
                                                 <input type="email" name="" id="" placeholder="Parent's Email">
                                             </div>
                                             <div class="col-sm-12 col-md-12 col-lg-12">
                                                 <div class="signlabel"><label for="">Password</label></div>
-                                                <input type="password" name="" id="" placeholder="At least 6 characters">
+                                                <input type="password" name="" id=""
+                                                    placeholder="At least 6 characters">
                                             </div>
                                             <div class="col-sm-12 col-md-6 col-lg-8 mobile91">
                                                 <div class="signlabel"><label for="">Mobile number</label></div>
@@ -91,43 +97,47 @@
                                             <div class="col-sm-12 col-md-6 col-lg-4">
                                                 <div class="signlabel"><label for="">Select your class</label></div>
                                                 <select class="signupselect" id="" name="">
-                                                    <option value="">Class</option>                                                                    
-                                                    <option value="1">Class 1</option>                                                                    
-                                                    <option value="2">Class 2</option>                                                                    
-                                                    <option value="3">Class 3</option>                                                                    
-                                                    <option value="4">Class 4</option>                                                                    
-                                                    <option value="7">Class 5</option>                                                                    
-                                                    <option value="8">Class 6</option>                                                                    
-                                                    <option value="9">Class 7</option>                                                                    
-                                                    <option value="10">Class 8</option>                                                                    
-                                                    <option value="11">Class 9</option>                                                                    
-                                                    <option value="12">Class 10</option>                                                                    
-                                                    <option value="13">Class 11</option>                                                                    
-                                                    <option value="16">Class 12</option>                                                                    
-                                                    <option value="22">Ielts</option>                                                                    
-                                                    <option value="28">Coding</option>                                                                    
-                                                    <option value="29">Summer Course</option>                                                                    
+                                                    <option value="">Class</option>
+                                                    <option value="1">Class 1</option>
+                                                    <option value="2">Class 2</option>
+                                                    <option value="3">Class 3</option>
+                                                    <option value="4">Class 4</option>
+                                                    <option value="7">Class 5</option>
+                                                    <option value="8">Class 6</option>
+                                                    <option value="9">Class 7</option>
+                                                    <option value="10">Class 8</option>
+                                                    <option value="11">Class 9</option>
+                                                    <option value="12">Class 10</option>
+                                                    <option value="13">Class 11</option>
+                                                    <option value="16">Class 12</option>
+                                                    <option value="22">Ielts</option>
+                                                    <option value="28">Coding</option>
+                                                    <option value="29">Summer Course</option>
                                                     <option value="30">Robotics</option>
                                                 </select>
                                             </div>
                                             <div class="col-sm-12 col-md-12 col-lg-12">
-                                                <div class="signlabel"><label for="">Apply Coupan(optional)</label></div>
+                                                <div class="signlabel"><label for="">Apply Coupan(optional)</label>
+                                                </div>
                                                 <input type="text" name="" id="" placeholder="Enter Coupon Code If Any">
                                             </div>
                                             <div class="col-sm-12 col-md-12 col-lg-12">
                                                 <button class="signupbtn">Continue</button>
                                             </div>
-                                            <div class="loginheresign"><p>Already a user? <a href="#"><span>Login here</span></a></p></div>
+                                            <div class="loginheresign">
+                                                <p>Already a user? <a href="#"><span>Login here</span></a></p>
+                                            </div>
                                         </div>
-                                        <p class="signupterms"><a href="#">Terms of use</a> | <a href="#">Privacy policy</a></p>
+                                        <p class="signupterms"><a href="#">Terms of use</a> | <a href="#">Privacy
+                                                policy</a></p>
                                     </form>
                                 </div>
-                                
+
                             </div>
-                            
+
                         </div>
 
-                        
+
                         <!-- <div class="modal-footer">
                             <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
                         </div> -->
@@ -138,7 +148,8 @@
 
             <!-- --------------------------Ending of modal---------------------------- -->
 
-            <div class="nav-login" data-bs-toggle="modal" data-bs-target="#myModal3"><i class="fa-solid fa-user"></i><a href="#">Login</a></div>
+            <div class="nav-login" data-bs-toggle="modal" data-bs-target="#myModal3"><i class="fa-solid fa-user"></i><a
+                    href="#">Login</a></div>
 
             <!-- ------------------------------------- The Modal --------------------------------->
 
@@ -153,7 +164,7 @@
                             <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                         </div> -->
 
-                        
+
                         <div class="modal-body sign-up-body">
                             <div class="row">
 
@@ -167,7 +178,8 @@
                                 <div class="col-sm-12 col-md-12 col-lg-8 right-login-content p-4">
                                     <h4>Welcome Back?</h4>
                                     <!-- <button type="button" class="btn-close signupcross" data-bs-dismiss="modal"></button> -->
-                                    <button type="button" class="close cross-close-login" data-bs-dismiss="modal" aria-label="Close">
+                                    <button type="button" class="close cross-close-login" data-bs-dismiss="modal"
+                                        aria-label="Close">
                                         <span aria-hidden="true">×</span>
                                     </button>
                                     <p class="loginproceed">Please login to proceed</p>
@@ -175,15 +187,18 @@
                                         <div class="row">
                                             <div class="col-sm-12 col-md-12 col-lg-12">
                                                 <!-- <div class="signlabel"><label for="">Enter Email/Mobile Number</label></div> -->
-                                                <input type="text" name="" class="logininputc" id="" placeholder="Enter email or phone number">
+                                                <input type="text" name="" class="logininputc" id=""
+                                                    placeholder="Enter email or phone number">
                                             </div>
                                             <div class="col-sm-12 col-md-12 col-lg-12">
                                                 <!-- <div class="signlabel"><label for="">Enter Password</label></div> -->
-                                                <input type="email" name="" class="logininputc" id="" placeholder="Enter your password">
+                                                <input type="email" name="" class="logininputc" id=""
+                                                    placeholder="Enter your password">
                                                 <p class="forgotlogin">Forgot?</p>
                                             </div>
                                             <div class="col-sm-12 col-md-12 col-lg-12">
-                                                <p class="loginterms">By continuing, you agree to Srtutor's <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a></p>
+                                                <p class="loginterms">By continuing, you agree to Srtutor's <a
+                                                        href="#">Terms of Use</a> and <a href="#">Privacy Policy</a></p>
                                             </div>
 
                                             <div class="col-sm-12 col-md-12 col-lg-12">
@@ -200,12 +215,12 @@
                                         <!-- <p class="signupterms"><a href="#">Terms of use</a> | <a href="#">Privacy policy</a></p> -->
                                     </form>
                                 </div>
-                                
+
                             </div>
-                            
+
                         </div>
 
-                        
+
                         <!-- <div class="modal-footer">
                             <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
                         </div> -->
@@ -260,7 +275,7 @@
                     <a class="nav-link" href="about-us.php" target="_blank">About Us</a>
                 </li> -->
                 <li class="nav-item dropdown">
-                    <a class="nav-link" data-bs-toggle="dropdown" href="#">Company</a>
+                    <a class="nav-link" data-bs-toggle="dropdown" href="#">About</a>
                     <i class="fa-solid fa-angle-down arrowdropdown"></i>
                     <i class="fa-solid fa-plus plusdropdown"></i>
                     <ul class="dropdown-menu animated-drop">
@@ -272,8 +287,8 @@
                             <hr class="dropdown-divider">
                         </li>
                         <li>
-                            <a href="contact-us.php" target="_blank"
-                                class="dropdown-item single-item single-item">Contact Us</a>
+                            <a href="mission.php"
+                                class="dropdown-item single-item">Mission & Vision</a>
                         </li>
                         <li>
                             <hr class="dropdown-divider">
@@ -304,20 +319,15 @@
                                         </a></li>
                                     <li><a class="dropdown-item multi-item" href="cse.php">Computer Science</a></li>
                                     <li><a class="dropdown-item multi-item" href="#">Repeater</a></li>
-                                    <li><a class="dropdown-item multi-item" href="#">Class 12 <span>Science</span></a></li>
-                                    <li><a class="dropdown-item multi-item" href="#">Class 12 <span>Commerce</span></a></li>
-                                    <li><a class="dropdown-item multi-item" href="#">Class 11 <span>Science</span></a></li>
-                                    <li><a class="dropdown-item multi-item" href="#">Class 11 <span>Commerce</span></a></li>
-                                    <li><a class="dropdown-item multi-item" href="#">Class 10</a></li>
-                                    <li><a class="dropdown-item multi-item" href="#">Class 9</a></li>
-                                    <li><a class="dropdown-item multi-item" href="#">Class 8</a></li>
-                                    <li><a class="dropdown-item multi-item" href="#">Class 7</a></li>
-                                    <li><a class="dropdown-item multi-item" href="#">Class 6</a></li>
-                                    <li><a class="dropdown-item multi-item" href="#">Class 5</a></li>
-                                    <li><a class="dropdown-item multi-item" href="#">Class 4</a></li>
-                                    <li><a class="dropdown-item multi-item" href="#">Class 3</a></li>
-                                    <li><a class="dropdown-item multi-item" href="#">Class 2</a></li>
-                                    <li><a class="dropdown-item multi-item" href="#">Class 1</a></li>
+                                    <li><a class="dropdown-item multi-item" href="#">Class 12 <span>Science</span></a>
+                                    </li>
+                                    <li><a class="dropdown-item multi-item" href="#">Class 12 <span>Commerce</span></a>
+                                    </li>
+                                    <li><a class="dropdown-item multi-item" href="#">Class 11 <span>Science</span></a>
+                                    </li>
+                                    <li><a class="dropdown-item multi-item" href="#">Class 11 <span>Commerce</span></a>
+                                    </li>
+                                    <li><a class="dropdown-item multi-item" href="#">Class 1 to 10</a></li>
                                     <li><a class="dropdown-item multi-item" href="#">UKG</a></li>
                                     <li><a class="dropdown-item multi-item" href="#">LKG</a></li>
                                 </ul>
@@ -328,18 +338,18 @@
                                             <h5>Find courses by target</h5>
                                         </a></li>
                                     <li><a class="dropdown-item multi-item" href="#">School tution</a></li>
-                                    <li><a class="dropdown-item multi-item" href="#">JEE</a></li>
                                     <li><a class="dropdown-item multi-item" href="#">JEE crash course</a></li>
                                     <!-- <li class="divider"></li> -->
                                     <li><a class="dropdown-item multi-item" href="#">NEET</a></li>
                                     <!-- <li class="divider"></li> -->
                                     <li><a class="dropdown-item multi-item" href="#">CUET/KVPY/NDA/NTSE</a></li>
-                                    <li><a class="dropdown-item multi-item" href="#">Interactive & Practice Books</a></li>
+                                    <li><a class="dropdown-item multi-item" href="#">Interactive & Practice Books</a>
+                                    </li>
                                     <li><a class="dropdown-item multi-item" href="#">Computer Science</a></li>
                                 </ul>
                             </div>
 
-                        <!-- </div> -->
+                            <!-- </div> -->
                     </ul>
                 </li>
 
@@ -354,7 +364,7 @@
                     <hr class="dropdown-divider">
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="whywe.php" target="_blank">Why Choose Us</a>
+                    <a class="nav-link" href="whywe.php">Why Choose Us</a>
                 </li>
                 <!-- <li class="nav-item" data-bs-toggle="modal" data-bs-target="#myModal1">
                     <a class="nav-link" href="#">Why We For Tutors</a>
@@ -435,28 +445,8 @@
                 <li class="navmenudivider">
                     <hr class="dropdown-divider">
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link" href="#" data-bs-toggle="dropdown">Mission & Vission</a>
-                    <!-- <a class="nav-link" href="mission.php" target="_blank">Mission & Vission</a> -->
-                    <i class="fa-solid fa-angle-down arrowdropdown"></i>
-                    <i class="fa-solid fa-plus plusdropdown"></i>
-                    <ul class="dropdown-menu animated-drop">
-                        <li>
-                            <a href="mission.php" class="dropdown-item single-item" target="_blank">Our Mission</a>
-                        </li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li>
-                            <a href="#" class="dropdown-item single-item">High-class plan</a>
-                        </li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li>
-                            <a href="#" class="dropdown-item single-item">Top-up plan</a>
-                        </li>
-                    </ul>
+                <li class="nav-item">
+                    <a class="nav-link" target="_blank" href="contact-us.php">Contact Us</a>
                 </li>
                 <li class="navmenudivider">
                     <hr class="dropdown-divider">
@@ -553,7 +543,7 @@
                     <hr class="dropdown-divider">
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="get-info.php" target="_blank">Get Info</a>
+                    <a class="nav-link" href="get-info.php">Get Info</a>
                 </li>
                 <li class="navmenudivider">
                     <hr class="dropdown-divider">
@@ -591,7 +581,7 @@
 
     </div>
 
-    <a href="#" class="bookdemous ribbon2 ribbon2-top-left" data-bs-toggle="modal" data-bs-target="#scheduled-session">
+    <!-- <a href="#" class="bookdemous ribbon2 ribbon2-top-left" data-bs-toggle="modal" data-bs-target="#scheduled-session">
         <span>free</span>Book a Demo
-    </a>
+    </a> -->
 </nav>
