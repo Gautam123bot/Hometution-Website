@@ -581,7 +581,7 @@
 
     </div>
 
-    <!-- <a href="#" class="bookdemous ribbon2 ribbon2-top-left" data-bs-toggle="modal" data-bs-target="#scheduled-session">
+    <a href="#" class="bookdemous ribbon2 ribbon2-top-left" data-bs-toggle="modal" data-bs-target="#scheduled-session">
         <span>free</span>Book a Demo
-    </a> -->
+    </a>
 </nav>

@@ -159,6 +159,8 @@
     font-style: 'Montserrat', sans-serif;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+    position: fixed;
+    right: 0;
 }
 
 @keyframes exampless {
