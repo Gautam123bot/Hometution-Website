@@ -49,7 +49,7 @@
             <li class="element-extra">
                 <a href="#" class="extra-thing">
                     <i class="fa-regular fa-envelope two-icon"></i>
-                    <p class="openanaccount">Open an accout</p>
+                    <p class="openanaccount">Enquiry Now</p>
                     <!-- <span>Facebook</span> -->
                     <div class="open_form">
                         <form action="">
