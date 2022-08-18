@@ -110,11 +110,11 @@
 <br><br><br>
 
     <div class="livecourses">
-        <!-- <h2>Course Details</h2> -->
-        <!-- <img src="img/coursedetails1.png" alt="" class="img-responsive"> -->
+        <h2>Course Details</h2>
+        <img src="img/coursedetails1.png" alt="" class="img-responsive">
     </div>
 
-    <br><br>
+    <br><br><br>
 
     <div class="section introductory_sessions">
         <div class="container-fluid">
