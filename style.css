@@ -456,7 +456,9 @@
     margin-bottom: 20px;
 } */
 .open_form input {
-    margin: 10px;
+    display: block;
+    margin: 15px auto;
+    /* margin: 10px; */
     padding: 10px;
     width: 90%;
     border-radius: 20px;
@@ -469,7 +471,9 @@
 }
 
 .open_form textarea {
-    margin: 10px;
+    display: block;
+    margin: 15px auto;
+    /* margin: 10px; */
     width: 90%;
     border-radius: 20px;
     padding: 10px;
@@ -1275,7 +1279,7 @@ footer p {
     color: black;
 }
 
-form {
+.formcontainer form {
     text-align: center;
 }
 

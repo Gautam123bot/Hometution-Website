@@ -244,7 +244,7 @@
 
 
 
-<nav class="navbar navbar-expand-lg" id="navbarfull">
+<nav class="navbar navbar-expand-md" id="navbarfull">
 
     <div class="container">
         <a class="navbar-brand col-sm-2" href="#">
@@ -263,7 +263,7 @@
 
             <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
 
-                <button class="accountbutton">Open an Account</button>
+                <!-- <button class="accountbutton">Open an Account</button> -->
 
                 <li class="nav-item">
                     <a class="nav-link" href="index.php">Home</a>

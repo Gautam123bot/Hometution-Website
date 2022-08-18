@@ -4,11 +4,11 @@
 
 
 
-    .orange-nav-part{
+    .orange-nav-part {
         display: none;
     }
 
-/* 
+    /* 
     .back-carouse {
         z-index: -1;
     } */
@@ -24,7 +24,8 @@
         z-index: 1;
         top: -50px;
         display: none;
-        left: -104px;
+        left: -92px;
+        top: -36px;
     }
 
     .expand .extra-thing:hover .open_form form {
@@ -33,7 +34,7 @@
     }
 
     .open_form .open_form_submit {
-        margin: 10px;
+        margin: 12px;
         border: 1px solid rgb(255, 1, 128);
         padding: 8px 59px;
         font-size: 17px;
@@ -44,7 +45,7 @@
         background-color: rgb(255, 1, 128);
         color: white;
         border-radius: 30px;
-        margin-top: 25px;
+        margin-top: 5px;
     }
 
     .open_form h4 {
@@ -282,7 +283,8 @@
         transition: 0.4s;
         font-family: 'Raleway', sans-serif;
     }
-    .multidropdown .mcd1{
+
+    .multidropdown .mcd1 {
         /* border-right: 1px solid gray; */
         padding-right: 15px;
     }
@@ -330,6 +332,7 @@
         font-size: 16px;
         font-family: 'Montserrat', sans-serif;
     }
+
     .testi-dash {
         /* border: 3px solid orangered; */
         height: 5px;
@@ -595,7 +598,7 @@
 
     /* *************************************** Start of about us page ****************** */
 
-    .headeraboutus .aboutdash .aboutdashspan1{
+    .headeraboutus .aboutdash .aboutdashspan1 {
         height: 6px;
         background: black;
         width: 8%;
@@ -603,7 +606,8 @@
         border-top-left-radius: 25px;
         border-bottom-left-radius: 25px;
     }
-    .headeraboutus .aboutdash .aboutdashspan2{
+
+    .headeraboutus .aboutdash .aboutdashspan2 {
         height: 6px;
         background: orangered;
         width: 8%;
@@ -611,7 +615,8 @@
         border-top-right-radius: 25px;
         border-bottom-right-radius: 25px;
     }
-    .headercontactus .aboutdash .aboutdashspan1{
+
+    .headercontactus .aboutdash .aboutdashspan1 {
         height: 6px;
         background: black;
         width: 8%;
@@ -619,7 +624,8 @@
         border-top-left-radius: 25px;
         border-bottom-left-radius: 25px;
     }
-    .headercontactus .aboutdash .aboutdashspan2{
+
+    .headercontactus .aboutdash .aboutdashspan2 {
         height: 6px;
         background: orangered;
         width: 8%;
@@ -627,6 +633,7 @@
         border-top-right-radius: 25px;
         border-bottom-right-radius: 25px;
     }
+
     .headeraboutus {
         text-align: center;
         margin-bottom: 75px;

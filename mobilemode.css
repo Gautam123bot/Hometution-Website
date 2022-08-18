@@ -1,6 +1,20 @@
 @media screen and (max-width: 480px) {
 
 
+    .open_form form {
+        transform: rotate(90deg);
+        padding: 10px;
+        border-radius: 5px;
+        position: absolute;
+        background-color: white;
+        border: none;
+        box-shadow: 0 0 6px -2px #adadad;
+        z-index: 1;
+        top: -50px;
+        display: none;
+        left: -91px;
+    top: -46px;
+    }
     .color-nav-part::before {
         width: 30%;      
     }
@@ -119,7 +133,7 @@
         position: fixed;
         width: 46px;
         z-index: 1;
-        top: 340px;
+        top: 285px;
         box-sizing: 2px 2px 8px 0 rgba(0, 0, 0, 0.4);
     }
     .expand .extra-thing {

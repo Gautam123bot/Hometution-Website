@@ -19,6 +19,13 @@
         font-family: 'raleway', sans-serif;
         font-size: 17px;
     }
+    .subscription_img {
+        display: none;
+    }
+    .equalbox {
+        margin-bottom: 61px;
+    }
+    
     /* .chooseimglast {
         max-width: 30%;            /*  design of why choose us page   */
     /* } */ 

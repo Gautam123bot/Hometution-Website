@@ -64,19 +64,25 @@
     <div class="expand">
         <ul class="expand-element">
             <li class="element-extra">
-                <a href="#" class="extra-thing">
+                <a href="#" class="extra-thing" onmouseover="comedialog()" onmouseout="godialog()">
                     <i class="fa-regular fa-envelope two-icon"></i>
                     <p class="openanaccount">Open an accout</p>
                     <!-- <span>Facebook</span> -->
                     <div class="open_form">
-                        <form action="" id="myDialog">
+                        <form action="" id="closethis">
                             <h4>Contact Form</h4>
                             <!-- <button type="button" class="btn-close" aria-label="Close"></button> -->
                             <i class="fa-solid fa-xmark" onclick="closeDialog()"></i>
                             <script>
-                                var x = document.getElementById("myDialog");
+                                var x = document.getElementById("closethis");
                                 function closeDialog() {
-                                    x.close();
+                                    x.style.display = "none";
+                                }
+                                function comedialog() {
+                                    x.style.display = "block";
+                                }
+                                function godialog() {
+                                    x.style.display = "none";
                                 }
                             </script>
                             <input type="text" name="" id="" placeholder="Name">
@@ -224,7 +230,7 @@
         </div>
         <div class="container middle-section">
             <div class="row p-3">
-                <div class="col-sm-3 middle-section-child">
+                <div class="col-sm-12 col-md-6 col-lg-3 middle-section-child">
                     <div class="single-product p-3">
                         <img src="img/fourimg1.jpg" class="img-responsive fourimage" alt="" width="300" height="auto">
                         <h4><a href="#">Search For Your Tutor</a></h4>
@@ -233,7 +239,7 @@
                             odit nobis alias quam.</p>
                     </div>
                 </div>
-                <div class="col-sm-3 middle-section-child">
+                <div class="col-sm-12 col-md-6 col-lg-3 middle-section-child">
                     <div class="single-product p-3">
                         <img src="img/fourimg2.jpg" class="img-responsive fourimage" alt="" width="300" height="auto">
                         <h4><a href="#">Schedule Your Class:</a></h4>
@@ -242,7 +248,7 @@
                             odit nobis alias quam.</p>
                     </div>
                 </div>
-                <div class="col-sm-3 middle-section-child">
+                <div class="col-sm-12 col-md-6 col-lg-3 middle-section-child">
                     <div class="single-product p-3">
                         <img src="img/fourimg3.jpg" class="img-responsive fourimage" alt="" width="300" height="auto">
                         <h4><a href="#">Get Reviews For Tutor:</a></h4>
@@ -251,7 +257,7 @@
                             odit nobis alias quam.</p>
                     </div>
                 </div>
-                <div class="col-sm-3 middle-section-child">
+                <div class="col-sm-12 col-md-6 col-lg-3 middle-section-child">
                     <div class="single-product p-3">
                         <img src="img/fourimg4.jpg" class="img-responsive fourimage" alt="" width="300" height="auto">
                         <h4><a href="#">Focus on Your Lessons:</a></h4>
