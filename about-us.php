@@ -106,7 +106,7 @@
     </div>
 
     <div class="container comprehensive-content-2">
-        <div class="row">
+        <div class="row comprehensive-content-row">
             <div class="comprehensive-text-2 col-sm-12 col-md-6 col-lg-6">
                 <div class="mt-2">
                     <h1>High Quality Live Learning at Scale</h1>
@@ -147,7 +147,7 @@
             </div>
         </div>
     </div>
-
+<br>
 
     <div class="container talented_teachers">
         <h1 class="text-center">Talented and highly qualified tutors to<br>serve you for online help.</h1>

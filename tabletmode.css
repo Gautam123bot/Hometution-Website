@@ -210,6 +210,9 @@
     .comprehensive-content-2 {
         margin-top: 0px;
     }
+    .comprehensive-content-row{
+        flex-direction: column-reverse;
+    }
 
     .comprehensive-text-3 {
         font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
