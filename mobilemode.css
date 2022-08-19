@@ -96,8 +96,8 @@
 
     .curation-image {
         margin-top: 25px;
-        position: absolute;
-        z-index: -1;
+        /* position: absolute; */
+        /* z-index: -1; */
     }
     .carouse-content {
         /* border: 1px solid rgb(213, 213, 213); */
