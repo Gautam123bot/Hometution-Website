@@ -225,7 +225,7 @@
     <div class="hiring-section">
         <div class="container hiringheader">
             <h2 class="hiringheading p-3">Hiring A Tutor Is Easy. Here Is How It Works:</h2>
-            <p class="hiringpara">"SR Tutors" expertise in providing Home Tutors & Online tuitions in India. We offers a
+            <p class="hiringpara">"TutorAtDoor" expertise in providing Home Tutors & Online tuitions in India. We offers a
                 wide-range of tutoring programs citywise.</p>
         </div>
         <div class="container middle-section">
@@ -338,7 +338,7 @@
             <div class="row ">
                 <div class="col-sm-12 col-sm-push-1 brick-content">
                     <h3>What we do?</h3>
-                    <p>TeacherOn.com is a free website, trusted by thousands of students and teachers, all over the
+                    <p>TutorAtDoor.com is a free website, trusted by thousands of students and teachers, all over the
                         world.</p>
                     <p>You can find local tutors, online teachers, and teachers to help with tutoring, coaching,
                         assignments, academic projects, and dissertations for over 4500 subjects.</p>
@@ -649,7 +649,7 @@
         <div class="container benefitsec-contain">
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12 heading_wrap">
-                    <h2 class="white_headbordr">Benefits of Online Tutoring in Vnaya</h2>
+                    <h2 class="white_headbordr">Benefits of Online Tutoring in Tutoratdoor</h2>
                 </div>
 
                 <div class="col-md-12 col-sm-12 col-lg-4 col-xs-12 benefitwrap">
@@ -968,7 +968,7 @@
 
     <!-- ------------------------------------------------- map section----------------------------------------- -->
 
-    <div class="lozad mt-4" data-background-image="https://assets2.teacheron.com/resources/assets/img/team/faces.jpg"
+    <!-- <div class="lozad mt-4" data-background-image="https://assets2.teacheron.com/resources/assets/img/team/faces.jpg"
         data-loaded="true">
         <div class="pt-4 pb-4 text-center backgroundblack">
             <h2 class="text-center lozadheader p-3">Teachers from over 125 countries</h2>
@@ -976,9 +976,178 @@
                     data-src="https://assets2.teacheron.com/resources/assets/img/customImages/global-presence-125-countries-blue.png"
                     src="img/map.png" alt="Global presence in 125+ countries"></div>
         </div>
-    </div>
+    </div> -->
 
     <!-- ------------------------------- End of map section --------------------------------------------- -->
+
+    <!-- ---------------------------------------------- Testimonials section -------------------------- -->
+
+    <section class="testimonial-section">
+        <div class="text-center p-4 testiheader">
+            <h3>What Says Most Of Our</h3> <br> <h2>Happy <span class="singletesticlient">Clients</span></h2>
+        </div>
+
+        <div class="testi-dash"></div>
+
+        <div id="carouselExampleIndicators" class="carousel slide mt-3" data-bs-ride="carousel">
+            <div class="carousel-indicators testi-carouse-indicator">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="carouse-indicator active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                class="carouse-indicator" aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner testi-carousel-inn container">
+                <div class="carousel-item active">
+                    <div class="row carouse-row">
+                        <div class="col-lg-4 col-md-12 col-sm-12 text-center p-4 mb-4">
+                            <div class="carouse-content">
+                                <div class="right-quotee-div">
+                                    <i class="fa-solid fa-quote-right right-quotee"></i>
+                                </div>
+                                <img src="img/tstm1.jpg" alt="" class="img-responsive testiimg">
+                                <div class="testi-ranking">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p>First Lorem ipsum dolor, sit amet consecem ipsa? Cum explicabo similique fugiat quos a nam sint, iusto temporibus natus, cupiditate sed beatae aliquid. Ex.</p>
+                                <div class="h4">Person 1</div>
+                                <span>Finance Mininster</span>
+                                <div class="left-quotee-div">
+                                    <i class="fa-solid fa-quote-left left-quotee"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12 col-sm-12 text-center p-4 mb-4">
+                            <div class="carouse-content">
+                                <div class="right-quotee-div">
+                                    <i class="fa-solid fa-quote-right right-quotee"></i>
+                                </div>
+                                <img src="img/tstm2.jpg" alt="" class="img-responsive testiimg">
+                                <div class="testi-ranking">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half"></i>
+                                </div>
+                                <p>Second Lorem ipsum dolor, sit amet consectetur adipisicore tenetur eius ab dolorem ipsa? Cum explicabo similique fugiat quos a nam sint, iusto temporibus natus, cupiditate sed beatae aliquid. Ex.</p>
+                                <div class="h4">Person 2</div>
+                                <span>Manager</span>
+                                <div class="left-quotee-div">
+                                    <i class="fa-solid fa-quote-left left-quotee"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12 col-sm-12 text-center p-4 mb-4">
+                            <div class="carouse-content">
+                                <div class="right-quotee-div">
+                                    <i class="fa-solid fa-quote-right right-quotee"></i>
+                                </div>
+                                <img src="img/tstm3.jpg" alt="" class="img-responsive testiimg">
+                                <div class="testi-ranking">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half"></i>
+                                </div>
+                                <p>third Lorem ipsum dolor, sit amet consectetur adipisis, cupiditate sed beatae aliquid. Ex.</p>
+                                <div class="h4">Person 3</div>
+                                <span>Deputy Chief Minister</span>
+                                <div class="left-quotee-div">
+                                    <i class="fa-solid fa-quote-left left-quotee"></i>
+                                </div>
+                            </div>
+                        </div>               
+                    </div>
+                </div>
+                <div class="carousel-item">
+                <div class="row carouse-row">
+                        <div class="col-lg-4 col-md-12 col-sm-12 text-center p-4 mb-4">
+                            <div class="carouse-content">
+                                <div class="right-quotee-div">
+                                    <i class="fa-solid fa-quote-right right-quotee"></i>
+                                </div>
+                                <img src="img/tstm2.jpg" alt="" class="img-responsive testiimg">
+                                <div class="testi-ranking">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p>First Lorem ipsum dolor, sit amet consectetur adipisimilique fugiat quos a nam sint, iusto temporibus natus, cupiditate sed beatae aliquid. Ex.</p>
+                                <div class="h4">Person 4</div>
+                                <span>Company Secretary</span>
+                                <div class="left-quotee-div">
+                                    <i class="fa-solid fa-quote-left left-quotee"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12 col-sm-12 text-center p-4 mb-4">
+                            <div class="carouse-content">
+                                <div class="right-quotee-div">
+                                    <i class="fa-solid fa-quote-right right-quotee"></i>
+                                </div>
+                                <img src="img/tstm3.jpg" alt="" class="img-responsive testiimg">
+                                <div class="testi-ranking">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half"></i>
+                                </div>
+                                <p>Second Lorem ipsum dolor, sit amet consectsicing elit. Labore tenetur eius ab dolorem ipsa? Cum explicabo similique fugiat quos a nam sint, iusto temporibus natus, cupiditate sed beatae aliquid. Ex.</p>
+                                <div class="h4">Person 5</div>
+                                <span>Prime Minister</span>
+                                <div class="left-quotee-div">
+                                    <i class="fa-solid fa-quote-left left-quotee"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12 col-sm-12 text-center p-4 mb-4">
+                            <div class="carouse-content">
+                                <div class="right-quotee-div">
+                                    <i class="fa-solid fa-quote-right right-quotee"></i>
+                                </div>
+                                <img src="img/testi1.jpg" alt="" class="img-responsive testiimg">
+                                <div class="testi-ranking">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p>third Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore tenetur eius ab dolorem ipsa? Cum explicabo similique fugiat quos a nam sint, iusto temporibus natus, cupiditate sed beatae aliquid. Ex.</p>
+                                <div class="h4">Person 6</div>
+                                <span>Manager</span>
+                                <div class="left-quotee-div">
+                                    <i class="fa-solid fa-quote-left left-quotee"></i>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+
+    <!-- <br><br><br> -->
+
+    <!-- ---------------------------------------------- Testimonials section -------------------------- -->
 
     <?php include "footer.php"; ?>
 

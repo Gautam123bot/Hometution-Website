@@ -136,7 +136,7 @@
 
     <div class="whychoose">
         <div class="container-fluid">
-            <h1>Why Choose Srtutors</h1>
+            <h1>Why Choose TutorAtDoor</h1>
             <div class="whychoosedash"></div>
             <div class="row">
                 <div class="col-sm-12 col-lg-3 col-md-12"></div>

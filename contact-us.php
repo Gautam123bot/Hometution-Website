@@ -117,7 +117,7 @@
                 <div class="wpb_wrapper">                    
                     <div class="bottomtxt">
                         <p style="text-align: center;">Feedback, Love Letters &amp; Everything Else, Write to Us at
-                            <a href="mailto:care@vnaya.com">care@vnaya.com</a>!
+                            <a href="mailto:info@tutoratdoor.com">info@tutoratdoor.com</a>!
                         </p>
                     </div>
                     

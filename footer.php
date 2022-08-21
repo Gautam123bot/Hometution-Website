@@ -1,5 +1,5 @@
 
-    <div class="mail-box-section">
+    <!-- <div class="mail-box-section">
         <div class="row png-img-contain">
                                     
                 <div class="col-md-6 offset-md-3">
@@ -29,7 +29,7 @@
                 </div>
            
         </div>                    
-    </div>
+    </div> -->
 
 
 
@@ -82,10 +82,10 @@
                         <!-- Grid column -->
                         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 footerfirstparacontent">
                             <!-- Content -->
-                            <p class="text-uppercase fw-bold footer-header">S.R. TUTORS BUREAU</p>
+                            <p class="text-uppercase fw-bold footer-header">TUTORATDOOR.COM</p>
                             <hr class="mb-4 mt-0 d-inline-block mx-auto"
                                 style="width: 60px; background-color: #7c4dff; height: 2px" />
-                                <p class="footerfirstpara">SR Tutorial is India's leading education service provider portal. In the age of knowledge revolution, the role of teachers and education providers has broadened to develop the valuable human resources according to the changing needs of emerging market economy.</p>
+                                <p class="footerfirstpara">TutorAtDoor is India's leading education service provider portal. In the age of knowledge revolution, the role of teachers and education providers has broadened to develop the valuable human resources according to the changing needs of emerging market economy.</p>
                         </div>
                         <!-- Grid column -->
 
@@ -147,7 +147,7 @@
                             <hr class="mb-4 mt-0 d-inline-block mx-auto"
                                 style="width: 60px; background-color: #7c4dff; height: 2px" />
                             <p><i class="fas fa-home mr-3 mt-2"></i>&nbsp;&nbsp; Sector 4, Noida -201301 <Br>Uttar Pradesh</p>
-                            <p><i class="fas fa-envelope mr-3 mt-2"></i>&nbsp;&nbsp; support@udyantea.com</p>
+                            <p><i class="fas fa-envelope mr-3 mt-2"></i>&nbsp;&nbsp; info@tutoratdoor.com</p>
                             <p><i class="fas fa-phone mr-3 mt-2"></i>&nbsp;&nbsp; +91 74777 89757</p>
                             <div class="footer-social mt-4">
                                 <div class="d-flex social-flex">
@@ -179,7 +179,7 @@
 
             <!-- Copyright -->
             <div class="text-center p-3 copyrightsection">
-            Copyright &copy; S R Tutors 2017. Designed by Abide Infotech. All Rights Reserved.
+            Copyright &copy; TutorAtDoor 2021.&nbsp; Designed by Webgany Services. &nbsp;All Rights Reserved.
                 <!-- <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a> -->
             </div>
             <!-- Copyright -->

@@ -2,7 +2,7 @@
     <div class="color-nav-part">
         <div class="col-md-6 col-sm-6 col-lg-8 container orange-nav-part">
             <div class="navicon-content"><i class="far fa-envelope"></i>
-                <p>example@example.com</p>
+                <p>info@tutoratdoor.com</p>
             </div>
             <div class="navicon-content"><i class="fas fa-street-view"></i>
                 <p>Nazafgarh, Delhi</p>
@@ -318,18 +318,18 @@
                                             <h5>Find courses by class</h5>
                                         </a></li>
                                     <li><a class="dropdown-item multi-item" href="cse.php">Computer Science</a></li>
-                                    <li><a class="dropdown-item multi-item" href="#">Repeater</a></li>
-                                    <li><a class="dropdown-item multi-item" href="#">Class 12 <span>Science</span></a>
+                                    <li><a class="dropdown-item multi-item" href="cse.php">Repeater</a></li>
+                                    <li><a class="dropdown-item multi-item" href="cse.php">Class 12 <span>Science</span></a>
                                     </li>
-                                    <li><a class="dropdown-item multi-item" href="#">Class 12 <span>Commerce</span></a>
+                                    <li><a class="dropdown-item multi-item" href="cse.php">Class 12 <span>Commerce</span></a>
                                     </li>
-                                    <li><a class="dropdown-item multi-item" href="#">Class 11 <span>Science</span></a>
+                                    <li><a class="dropdown-item multi-item" href="cse.php">Class 11 <span>Science</span></a>
                                     </li>
-                                    <li><a class="dropdown-item multi-item" href="#">Class 11 <span>Commerce</span></a>
+                                    <li><a class="dropdown-item multi-item" href="cse.php">Class 11 <span>Commerce</span></a>
                                     </li>
-                                    <li><a class="dropdown-item multi-item" href="#">Class 1 to 10</a></li>
-                                    <li><a class="dropdown-item multi-item" href="#">UKG</a></li>
-                                    <li><a class="dropdown-item multi-item" href="#">LKG</a></li>
+                                    <li><a class="dropdown-item multi-item" href="cse.php">Class 1 to 10</a></li>
+                                    <li><a class="dropdown-item multi-item" href="cse.php">UKG</a></li>
+                                    <li><a class="dropdown-item multi-item" href="cse.php">LKG</a></li>
                                 </ul>
                             </div>
                             <div class="col-sm-12 col-md-12 col-lg-6 underrowmulti">
@@ -337,15 +337,15 @@
                                     <li><a class="findacourse" href="#">
                                             <h5>Find courses by target</h5>
                                         </a></li>
-                                    <li><a class="dropdown-item multi-item" href="#">School tution</a></li>
-                                    <li><a class="dropdown-item multi-item" href="#">JEE crash course</a></li>
+                                    <li><a class="dropdown-item multi-item" href="cse.php">School tution</a></li>
+                                    <li><a class="dropdown-item multi-item" href="cse.php">JEE crash course</a></li>
                                     <!-- <li class="divider"></li> -->
-                                    <li><a class="dropdown-item multi-item" href="#">NEET</a></li>
+                                    <li><a class="dropdown-item multi-item" href="cse.php">NEET</a></li>
                                     <!-- <li class="divider"></li> -->
-                                    <li><a class="dropdown-item multi-item" href="#">CUET/KVPY/NDA/NTSE</a></li>
-                                    <li><a class="dropdown-item multi-item" href="#">Interactive & Practice Books</a>
+                                    <li><a class="dropdown-item multi-item" href="cse.php">CUET/KVPY/NDA/NTSE</a></li>
+                                    <li><a class="dropdown-item multi-item" href="cse.php">Interactive & Practice Books</a>
                                     </li>
-                                    <li><a class="dropdown-item multi-item" href="#">Computer Science</a></li>
+                                    <li><a class="dropdown-item multi-item" href="cse.php">Computer Science</a></li>
                                 </ul>
                             </div>
 
@@ -581,7 +581,7 @@
 
     </div>
 
-    <a href="#" class="bookdemous ribbon2 ribbon2-top-left" data-bs-toggle="modal" data-bs-target="#scheduled-session">
+    <!-- <a href="#" class="bookdemous ribbon2 ribbon2-top-left" data-bs-toggle="modal" data-bs-target="#scheduled-session">
         <span>free</span>Book a Demo
-    </a>
+    </a> -->
 </nav>

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,6 +19,7 @@
     <link rel="stylesheet" href="laptop1024pxmore.css">
     <script src="https://kit.fontawesome.com/b90099deb6.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <?php include 'header.php'; ?>
 
@@ -69,7 +71,7 @@
             </li>
             <li class="element">
                 <a href="#" class="extra-thing-1">
-                <i class="fa-solid fa-money-check two-icon"></i><span>Payment</span>
+                    <i class="fa-solid fa-money-check two-icon"></i><span>Payment</span>
                 </a>
             </li>
         </ul>
@@ -85,10 +87,13 @@
 
                     <div class="col-sm-12 col-md-12 col-lg-6 info-intro">
                         <h5>For K-12 Schools and Districts</h5><br>
-                        <p class="online-tutoring-para">1:1 online tutoring with <span>professional educators<span></p><br><br>
-                        <p class="support-para"><span>24/7 academic support</span> through on-demand homework help and 24-hour assignment review across <span>122+ subjects.</span></p>
+                        <p class="online-tutoring-para">1:1 online tutoring with <span>professional educators<span></p>
+                        <br><br>
+                        <p class="support-para"><span>24/7 academic support</span> through on-demand homework help and
+                            24-hour assignment review across <span>122+ subjects.</span></p>
                         <div class="academic-dash"></div>
-                        <p class="studentpara">Are you a student? <a href="#">Complete your registration</a> to connect with a tutor now.</p>
+                        <p class="studentpara" data-bs-toggle="modal" data-bs-target="#myModal2">Are you a student? <a
+                                href="#">Complete your registration</a> to connect with a tutor now.</p>
                     </div>
 
                     <div class="col-sm-12 col-md-12 col-lg-6">
@@ -126,8 +131,15 @@
 
     <div class="row top-content">
         <div class="academic-support col-sm-12 col-md-12 col-lg-12">
-            <div class="academic-support-header"><p>24/7 academic support anytime, and anywhere</p></div>
-            <div class="academic-support-para"><p>No matter your level of study, you’ll find an online tutor for you. Elementary, middle, and high school students can connect with the best professional educators from across the country and around the world. College students can learn from subject experts holding master’s and doctorate degrees.</p></div>
+            <div class="academic-support-header">
+                <p>24/7 academic support anytime, and anywhere</p>
+            </div>
+            <div class="academic-support-para">
+                <p>No matter your level of study, you’ll find an online tutor for you. Elementary, middle, and high
+                    school students can connect with the best professional educators from across the country and around
+                    the world. College students can learn from subject experts holding master’s and doctorate degrees.
+                </p>
+            </div>
         </div>
     </div>
 
@@ -135,25 +147,49 @@
         <div class="row">
             <div class="col-sm-12 col-md-6 col-lg-6 icon-description">
                 <img src="img/support-icon-1.png" alt="" class="img-responsive support-icon" width="72" height="auto">
-                <div class="quality-header"><p>The highest quality educators in 122+ subjects</p></div>
-                <div class="quality-para"><p>Skooli tutors are experienced educators who possess teaching licenses or advanced degrees in the subject they are tutoring in, meaning students receive help from true subject-matter experts.</p></div>
+                <div class="quality-header">
+                    <p>The highest quality educators in 122+ subjects</p>
+                </div>
+                <div class="quality-para">
+                    <p>Skooli tutors are experienced educators who possess teaching licenses or advanced degrees in the
+                        subject they are tutoring in, meaning students receive help from true subject-matter experts.
+                    </p>
+                </div>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-6 icon-description">
-            <img src="img/support-icon-2.png" alt="" class="img-responsive support-icon" width="72" height="auto">
-                <div class="quality-header"><p>Safe and secure learning environment</p></div>
-                <div class="quality-para"><p>Whether students need live, on-demand homework help via live chat or audio, or feedback on an assignment (in 24 hours or less), Skooli tutors utilize best practices to meet students’ unique learning needs.</p></div>
+                <img src="img/support-icon-2.png" alt="" class="img-responsive support-icon" width="72" height="auto">
+                <div class="quality-header">
+                    <p>Safe and secure learning environment</p>
+                </div>
+                <div class="quality-para">
+                    <p>Whether students need live, on-demand homework help via live chat or audio, or feedback on an
+                        assignment (in 24 hours or less), Skooli tutors utilize best practices to meet students’ unique
+                        learning needs.</p>
+                </div>
             </div>
         </div>
         <div class="row">
             <div class="col-sm-12 col-md-6 col-lg-6 icon-description">
-            <img src="img/support-icon-3.png" alt="" class="img-responsive support-icon" width="72" height="auto">
-                <div class="quality-header"><p>An advanced, secure digital classroom</p></div>
-                <div class="quality-para"><p>Skooli’s safe, user-friendly digital classroom accelerates student learning through the use of cutting-edge learning tools (including a 700+ math term glossary) and an interactive white board.</p></div>
+                <img src="img/support-icon-3.png" alt="" class="img-responsive support-icon" width="72" height="auto">
+                <div class="quality-header">
+                    <p>An advanced, secure digital classroom</p>
+                </div>
+                <div class="quality-para">
+                    <p>Skooli’s safe, user-friendly digital classroom accelerates student learning through the use of
+                        cutting-edge learning tools (including a 700+ math term glossary) and an interactive white
+                        board.</p>
+                </div>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-6 icon-description">
-            <img src="img/support-icon-4.png" alt="" class="img-responsive support-icon-extra" width="51" height="auto">
-                <div class="quality-header"><p>Say goodbye to hourly fees</p></div>
-                <div class="quality-para"><p>Skooli offers flexible, equitable on-demand tutoring at an affordable, per-student rate which grants students unlimited 24/7 access for an entire year (365 days). </p></div>
+                <img src="img/support-icon-4.png" alt="" class="img-responsive support-icon-extra" width="51"
+                    height="auto">
+                <div class="quality-header">
+                    <p>Say goodbye to hourly fees</p>
+                </div>
+                <div class="quality-para">
+                    <p>Skooli offers flexible, equitable on-demand tutoring at an affordable, per-student rate which
+                        grants students unlimited 24/7 access for an entire year (365 days). </p>
+                </div>
             </div>
         </div>
     </div>
@@ -163,9 +199,10 @@
             <p>Give the students the help they need,</p>
             <h1>when they need it</h1>
             <a href="#" onclick="goToTop()" target="_self">Request more info</a>
-        </div>        
+        </div>
     </div>
 
     <?php include 'footer.php'; ?>
 </body>
+
 </html>
