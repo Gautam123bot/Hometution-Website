@@ -874,7 +874,7 @@
     <!-- ----------------------------------------------- Start of Top Tutors section --------------------------- -->
 
 
-    <div class="container-fluid tutor-section p-4">
+    <!-- <div class="container-fluid tutor-section p-4">
 
         <div class="top-tutor-heading mb-4">
             <h1>Few of our Top Tutors</h1>
@@ -960,7 +960,7 @@
         <a class="top-tutor-link" data-target="#modalfull" data-toggle="modal" href="#modalfull">
             <button type="button" class="btn btn-primary btn-md top-tutor-button">Hire Best Among 23000 Tutors</button>
         </a><br>
-    </div>
+    </div> -->
 
 
     <!-- ----------------------------------------------- End of Top Tutors section --------------------------- -->
@@ -981,7 +981,7 @@
     <!-- ------------------------------- End of map section --------------------------------------------- -->
 
     <!-- ---------------------------------------------- Testimonials section -------------------------- -->
-
+<br><br>
     <section class="testimonial-section">
         <div class="text-center p-4 testiheader">
             <h3>What Says Most Of Our</h3> <br> <h2>Happy <span class="singletesticlient">Clients</span></h2>
@@ -989,10 +989,10 @@
 
         <div class="testi-dash"></div>
 
-        <div id="carouselExampleIndicators" class="carousel slide mt-3" data-bs-ride="carousel">
+        <div id="carouselExampleIndicators11" class="carousel slide mt-3" data-bs-ride="carousel">
             <div class="carousel-indicators testi-carouse-indicator">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="carouse-indicator active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                <button type="button" data-bs-target="#carouselExampleIndicators11" data-bs-slide-to="0" class="carouse-indicator active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators11" data-bs-slide-to="1"
                 class="carouse-indicator" aria-label="Slide 2"></button>
             </div>
             <div class="carousel-inner testi-carousel-inn container">
@@ -1131,12 +1131,12 @@
                     </div>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators11"
                 data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators11"
                 data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
