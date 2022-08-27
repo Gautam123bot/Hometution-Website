@@ -19,6 +19,10 @@
         width: 30%;      
     }
 
+    .modal-give-margin{
+        margin: 30px !important;
+    }
+
     /* .back-carouse .left-carouse-icon {
         display: inline-block;
         height: 20%;

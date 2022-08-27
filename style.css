@@ -3391,6 +3391,7 @@ p.support-para span {
 .selectone {
     font-weight: bold;
     margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .selectone label {
@@ -3413,17 +3414,19 @@ p.support-para span {
 
 .input_box input {
     border: 0;
-    box-shadow: 2px 2px 10px #c1bcbc;
+    /* box-shadow: 2px 2px 10px #c1bcbc; */
     height: 37px;
     margin: 10px 0px;
-    padding: 0px 12px;
+    padding: 0px 10px;
     width: 100%;
+    border-bottom: 2px solid rgb(193, 193, 193);
 }
 
 .input_box input::placeholder {
-    font-size: 15px;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 400;
     color: rgb(174, 174, 174);
+    font-family: 'montserrat',sans-serif;
 }
 
 .input_box_email {
@@ -3433,7 +3436,7 @@ p.support-para span {
 .sigsbsform {
     box-shadow: 2px 2px 10px #948f8f;
     margin-top: 30px;
-    background: rgb(238, 36, 0);
+    background: rgb(220, 0, 26);
     text-decoration: none;
     display: block;
     color: #ffffff;
@@ -3446,7 +3449,7 @@ p.support-para span {
 
 .sigsbsform:hover {
     color: whitesmoke;
-    background-color: #3b5998;
+    background: linear-gradient(rgb(255, 0, 30),rgb(255, 0, 0))
 }
 
 /* ---------------------------------------------- End of Home Modal -------------------------------------------- */
@@ -3915,6 +3918,7 @@ p.support-para span {
 
 .multi-column-dropdown li {
     display: block;
+    width: 100%;
 }
 
 .multi-column-dropdown h5 {
@@ -3923,6 +3927,7 @@ p.support-para span {
     text-align: center;
     color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: left;
 }
 
 .multi-column-dropdown .findacourse {
@@ -4289,3 +4294,166 @@ p.support-para span {
 }
 
 /* ******************************* End of why choose us page *********************** */
+
+/******************************************* Bihar page design ****************************** */
+
+
+
+
+.subject-city {
+    margin-bottom: 40px;
+    max-width: 1100px;
+}
+
+.subject-city-row {
+    margin-bottom: 50px;
+    border: 1px solid darkblue;
+    /* background: rgb(153, 226, 255); */
+}
+
+.subject-city h2 {
+    font-family: cursive;
+    font-size: 50px;
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: 600;
+    margin-top: 50px;
+    color: rgb(0, 0, 93);
+    text-align: center;
+    margin-bottom: 40px;
+    animation-name: fadeInDown;
+    animation-duration: 3s;
+    animation-delay: 2s;
+}
+
+.subject-city .single-city a {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    display: inline-block;
+    font-family: 'montserrat', sans-serif;
+    margin: 0;
+    padding: 68px 68px !important;
+    transition: .2s;
+    text-decoration: none;
+    color: darkblue;
+}
+
+.subject-city .single-city a:hover {
+    color: whitesmoke;
+}
+
+.single-city {
+    position: relative;
+    text-align: center;
+    border: 1px solid #003a8a !important;
+    padding: 0;
+    z-index: 1;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.single-city::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: #003a8a;
+    position: absolute;
+    left: 0;
+    bottom: -120%;
+    opacity: 0;
+    z-index: -1;
+    transition: .5s;
+}
+
+.single-city:hover::after {
+    opacity: 1;
+    bottom: 0;
+}
+
+.single-city:hover {
+    color: whitesmoke;
+}
+
+
+.free-quote-section {
+    background: darkblue;
+    z-index: 1;
+    position: relative;
+}
+
+.free-quote {
+    max-width: 1100px;
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+
+.free-quote h1 {
+    font-family: 'Manrope', sans-serif;
+    font-weight: bolder;
+    color: white;
+    font-size: 70px;
+}
+
+.free-quote p {
+    color: white;
+    font-family: 'montserrat', sans-serif;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.free-quote-col1 {
+    display: block;
+    margin: auto 0;
+    padding-right: 30px;
+}
+.free-quote-col2{
+    margin-top: 30px;
+}
+
+.free-quote-col2 input {
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    margin-bottom: 30px;
+    background: transparent;
+    padding-left: 0;
+    width: 100%;
+    padding: 10px 10px;
+}
+
+.free-quote-col2 textarea::placeholder {
+    color: rgb(180, 180, 180);
+    font-family: 'mukta',sans-serif;
+    font-size: 18px;
+    word-spacing: 1px;
+}
+
+.free-quote-col2 input::placeholder {
+    color: rgb(181, 181, 181);
+    font-family: 'mukta',sans-serif;
+    font-size: 18px;
+    word-spacing: 1px;
+}
+
+.free-quote-col2 textarea {
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.free-quote-col2 button {
+    background: white;
+    border: none;
+    color: darkblue;
+    padding: 12px 60px;
+    font-size: 22px;
+    margin-top: 20px;
+    font-weight: 500;
+    font-family: 'manrope', sans-serif;
+}
+
+/* / ********************************** End of Bihar page design **************************** */
+

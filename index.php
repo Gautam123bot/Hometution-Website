@@ -1159,7 +1159,7 @@
 
 
     <div class="modal fade in" id="subscription" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
+        <div class="modal-dialog modal-lg modal-give-margin">
 
             <div class="modal-content">
                 <!-- <div class="modal-body"> -->

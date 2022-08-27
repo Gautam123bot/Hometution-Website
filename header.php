@@ -280,19 +280,25 @@
                     <i class="fa-solid fa-plus plusdropdown"></i>
                     <ul class="dropdown-menu animated-drop">
                         <li>
-                            <a href="about-us.php" target="_blank" class="dropdown-item single-item single-item">About
+                            <a href="about-us.php" target="_blank" class="dropdown-item single-item">About
                                 Us</a>
                         </li>
                         <li>
                             <hr class="dropdown-divider">
                         </li>
                         <li>
-                            <a href="mission.php"
-                                class="dropdown-item single-item">Mission & Vision</a>
+                            <a href="mission.php" class="dropdown-item single-item">Mission & Vision</a>
                         </li>
                         <li>
                             <hr class="dropdown-divider">
                         </li>
+                        <li>
+                        <a href="get-info.php" class="dropdown-item single-item">Get Info</a>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+
                     </ul>
                 </li>
                 <li class="navmenudivider">
@@ -319,13 +325,17 @@
                                         </a></li>
                                     <li><a class="dropdown-item multi-item" href="cse.php">Computer Science</a></li>
                                     <li><a class="dropdown-item multi-item" href="cse.php">Repeater</a></li>
-                                    <li><a class="dropdown-item multi-item" href="cse.php">Class 12 <span>Science</span></a>
+                                    <li><a class="dropdown-item multi-item" href="cse.php">Class 12
+                                            <span>Science</span></a>
                                     </li>
-                                    <li><a class="dropdown-item multi-item" href="cse.php">Class 12 <span>Commerce</span></a>
+                                    <li><a class="dropdown-item multi-item" href="cse.php">Class 12
+                                            <span>Commerce</span></a>
                                     </li>
-                                    <li><a class="dropdown-item multi-item" href="cse.php">Class 11 <span>Science</span></a>
+                                    <li><a class="dropdown-item multi-item" href="cse.php">Class 11
+                                            <span>Science</span></a>
                                     </li>
-                                    <li><a class="dropdown-item multi-item" href="cse.php">Class 11 <span>Commerce</span></a>
+                                    <li><a class="dropdown-item multi-item" href="cse.php">Class 11
+                                            <span>Commerce</span></a>
                                     </li>
                                     <li><a class="dropdown-item multi-item" href="cse.php">Class 1 to 10</a></li>
                                     <li><a class="dropdown-item multi-item" href="cse.php">UKG</a></li>
@@ -343,7 +353,8 @@
                                     <li><a class="dropdown-item multi-item" href="cse.php">NEET</a></li>
                                     <!-- <li class="divider"></li> -->
                                     <li><a class="dropdown-item multi-item" href="cse.php">CUET/KVPY/NDA/NTSE</a></li>
-                                    <li><a class="dropdown-item multi-item" href="cse.php">Interactive & Practice Books</a>
+                                    <li><a class="dropdown-item multi-item" href="cse.php">Interactive & Practice
+                                            Books</a>
                                     </li>
                                     <li><a class="dropdown-item multi-item" href="cse.php">Computer Science</a></li>
                                 </ul>
@@ -445,6 +456,33 @@
                 <li class="navmenudivider">
                     <hr class="dropdown-divider">
                 </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link" data-bs-toggle="dropdown" href="#">Our Branches</a>
+                    <i class="fa-solid fa-angle-down arrowdropdown"></i>
+                    <i class="fa-solid fa-plus plusdropdown"></i>
+                    <ul class="dropdown-menu animated-drop">
+                        <li>
+                            <a href="bihar.php" class="dropdown-item single-item">Bihar</a>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li>
+                            <a href="delhi.php" class="dropdown-item single-item">Delhi</a>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li>
+                    </ul>
+                </li>
+
+
+
+                <li class="navmenudivider">
+                    <hr class="dropdown-divider">
+                </li>
                 <li class="nav-item">
                     <a class="nav-link" target="_blank" href="contact-us.php">Contact Us</a>
                 </li>
@@ -539,12 +577,6 @@
 
 
 
-                <li class="navmenudivider">
-                    <hr class="dropdown-divider">
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="get-info.php">Get Info</a>
-                </li>
                 <li class="navmenudivider">
                     <hr class="dropdown-divider">
                 </li>
