@@ -146,7 +146,7 @@
                             <p class="text-uppercase fw-bold footer-header">Connect With Us</p>
                             <hr class="mb-4 mt-0 d-inline-block mx-auto"
                                 style="width: 60px; background-color: #7c4dff; height: 2px" />
-                            <p><i class="fas fa-home mr-3 mt-2"></i>&nbsp;&nbsp; Sector 4, Noida -201301 <Br>Uttar Pradesh</p>
+                            <p><i class="fas fa-home mr-3 mt-2" style="word-spacing: 1px;"></i>&nbsp;&nbsp; Patna Office: New Bangali Tola Mahavir Path, Mithapur, Patna, Bihar 800001</p>
                             <p><i class="fas fa-envelope mr-3 mt-2"></i>&nbsp;&nbsp; info@tutoratdoor.com</p>
                             <p><i class="fas fa-phone mr-3 mt-2"></i>&nbsp;&nbsp; +91 74777 89757</p>
                             <div class="footer-social mt-4">
@@ -176,7 +176,7 @@
                 </div>
             </section>
             <!-- Section: Links  -->
-
+<br><bR>
             <!-- Copyright -->
             <div class="text-center p-3 copyrightsection">
             Copyright &copy; TutorAtDoor 2021.&nbsp; Designed by Webgany Services. &nbsp;All Rights Reserved.
