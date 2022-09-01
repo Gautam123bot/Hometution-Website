@@ -280,7 +280,7 @@
                     <i class="fa-solid fa-plus plusdropdown"></i>
                     <ul class="dropdown-menu animated-drop">
                         <li>
-                            <a href="about-us.php" target="_blank" class="dropdown-item single-item">About
+                            <a href="about-us.php" class="dropdown-item single-item">About
                                 Us</a>
                         </li>
                         <li>
@@ -484,7 +484,7 @@
                     <hr class="dropdown-divider">
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" target="_blank" href="contact-us.php">Contact Us</a>
+                    <a class="nav-link" href="contact-us.php">Contact Us</a>
                 </li>
                 <li class="navmenudivider">
                     <hr class="dropdown-divider">

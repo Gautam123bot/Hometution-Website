@@ -3806,6 +3806,10 @@ p.support-para span {
 .wpb_wrapper {
     padding: 20px;
 }
+.wpb_col{
+    display: block;
+    margin: auto 0;
+}
 
 .bottomtxt p {
     color: #ed1c00;
