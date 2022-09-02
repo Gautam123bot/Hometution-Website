@@ -69,7 +69,7 @@
                     <p class="openanaccount">Enquiry Now</p>
                     <!-- <span>Facebook</span> -->
                     <div class="open_form">
-                        <form action="" id="closethis">
+                        <form action="srtutor_sideenquiry_connection.php" method="post" id="closethis">
                             <h4>Contact Form</h4>
                             <!-- <button type="button" class="btn-close" aria-label="Close"></button> -->
                             <i class="fa-solid fa-xmark" onclick="closeDialog()"></i>
@@ -85,11 +85,11 @@
                                     x.style.display = "none";
                                 }
                             </script>
-                            <input type="text" name="" id="" placeholder="Name">
-                            <input type="text" name="" id="" placeholder="Phone*">
-                            <input type="text" name="" id="" placeholder="Email*">
-                            <textarea name="" id="" cols="30" rows="5">Message</textarea>
-                            <button class="open_form_submit">Submit</button>
+                            <input type="text" name="name" id="" placeholder="Name">
+                            <input type="text" name="phone" id="" placeholder="Phone*">
+                            <input type="text" name="email" id="" placeholder="Email*">
+                            <textarea name="message" id="" cols="30" rows="5" placeholder="Message"></textarea>
+                            <input type="submit" name="submit" class="open_form_submit" value="Submit">
                         </form>
                     </div>
                 </a>

@@ -46,20 +46,32 @@
     <div class="expand">
         <ul class="expand-element">
             <li class="element-extra">
-                <a href="#" class="extra-thing">
+                <a href="#" class="extra-thing" onmouseover="comedialog()" onmouseout="godialog()">
                     <i class="fa-regular fa-envelope two-icon"></i>
                     <p class="openanaccount">Enquiry Now</p>
                     <!-- <span>Facebook</span> -->
                     <div class="open_form">
-                        <form action="">
+                        <form action="srtutor_sideenquiry_connection.php" method="post" id="closethis">
                             <h4>Contact Form</h4>
                             <!-- <button type="button" class="btn-close" aria-label="Close"></button> -->
-                            <i class="fa-solid fa-xmark"></i>
-                            <input type="text" name="" id="" placeholder="Name">
-                            <input type="text" name="" id="" placeholder="Phone*">
-                            <input type="text" name="" id="" placeholder="Email*">
-                            <textarea name="" id="" cols="30" rows="5">Message</textarea>
-                            <button class="open_form_submit">Submit</button>
+                            <i class="fa-solid fa-xmark" onclick="closeDialog()"></i>
+                            <script>
+                                var x = document.getElementById("closethis");
+                                function closeDialog() {
+                                    x.style.display = "none";
+                                }
+                                function comedialog() {
+                                    x.style.display = "block";
+                                }
+                                function godialog() {
+                                    x.style.display = "none";
+                                }
+                            </script>
+                            <input type="text" name="name" id="" placeholder="Name">
+                            <input type="text" name="phone" id="" placeholder="Phone*">
+                            <input type="text" name="email" id="" placeholder="Email*">
+                            <textarea name="message" id="" cols="30" rows="5" placeholder="Message"></textarea>
+                            <input type="submit" name="submit" class="open_form_submit" value="Submit">
                         </form>
                     </div>
                 </a>
