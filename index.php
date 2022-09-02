@@ -10,11 +10,13 @@
 
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js">
+    </script>
 
 
 
@@ -36,79 +38,6 @@
 <body>
 
     <?php include "header.php"; ?>
-
-
-
-
-
-    <div class="social_fixed_footer">
-        <div class="d-flex flex-md-column">
-            <div class="social">
-                <a href="#"><i class="fab fw ss fa-facebook-f facebook-theme"></i></a>
-            </div>
-            <div class="social">
-                <a href="#"><i class="fab fw ss fa-twitter twitter-theme"></i></a>
-            </div>
-            <div class="social">
-                <a href="#"><i class="fab fw ss fa-instagram instagram-theme"></i></a>
-            </div>
-            <div class="social">
-                <a href="#"><i class="fab fw ss fa-linkedin-f linkedin-theme"></i></a>
-            </div>
-            <div class="social">
-                <a href="#"><i class="fab fw ss fa-youtube youtube-theme"></i></a>
-            </div>
-        </div>
-    </div>
-
-    <div class="expand">
-        <ul class="expand-element">
-            <li class="element-extra">
-                <a href="#" class="extra-thing" onmouseover="comedialog()" onmouseout="godialog()">
-                    <i class="fa-regular fa-envelope two-icon"></i>
-                    <p class="openanaccount">Enquiry Now</p>
-                    <!-- <span>Facebook</span> -->
-                    <div class="open_form">
-                        <form action="srtutor_sideenquiry_connection.php" method="post" id="closethis">
-                            <h4>Contact Form</h4>
-                            <!-- <button type="button" class="btn-close" aria-label="Close"></button> -->
-                            <i class="fa-solid fa-xmark" onclick="closeDialog()"></i>
-                            <script>
-                                var x = document.getElementById("closethis");
-                                function closeDialog() {
-                                    x.style.display = "none";
-                                }
-                                function comedialog() {
-                                    x.style.display = "block";
-                                }
-                                function godialog() {
-                                    x.style.display = "none";
-                                }
-                            </script>
-                            <input type="text" name="name" id="" placeholder="Name">
-                            <input type="text" name="phone" id="" placeholder="Phone*">
-                            <input type="text" name="email" id="" placeholder="Email*">
-                            <textarea name="message" id="" cols="30" rows="5" placeholder="Message"></textarea>
-                            <input type="submit" name="submit" class="open_form_submit" value="Submit">
-                        </form>
-                    </div>
-                </a>
-            </li>
-            <li class="element">
-                <a href="#" class="extra-thing-1">
-                    <i class="fa-brands fa-whatsapp two-icon"></i><span>Whatsapp</span>
-                </a>
-            </li>
-            <li class="element">
-                <a href="#" class="extra-thing-1">
-                    <i class="fa-solid fa-money-check two-icon"></i><span>Payment</span>
-                </a>
-            </li>
-        </ul>
-    </div>
-
-    <div class="bottomtotop" onclick="totop()"><i class="fa-solid fa-circle-arrow-up"></i></div>
-
 
     <div id="carouselExampleIndicators" class="carousel slide back-carouse" data-bs-ride="carousel">
         <div class="carousel-indicators">
@@ -225,7 +154,8 @@
     <div class="hiring-section">
         <div class="container hiringheader">
             <h2 class="hiringheading p-3">Hiring A Tutor Is Easy. Here Is How It Works:</h2>
-            <p class="hiringpara">"TutorAtDoor" expertise in providing Home Tutors & Online tuitions in India. We offers a
+            <p class="hiringpara">"TutorAtDoor" expertise in providing Home Tutors & Online tuitions in India. We offers
+                a
                 wide-range of tutoring programs citywise.</p>
         </div>
         <div class="container middle-section">
@@ -399,7 +329,8 @@
                         <div class="modal-header demo_session_header">
                             <h4 class="modal-title">Schedule demo class</h4>
                             <!-- <button type="button" class="btn-close" data-bs-dismiss="modal"></button> -->
-                            <button type="button" class="close cross-close-login" data-bs-dismiss="modal" aria-label="Close">
+                            <button type="button" class="close cross-close-login" data-bs-dismiss="modal"
+                                aria-label="Close">
                                 <span aria-hidden="true">×</span>
                             </button>
                         </div>
@@ -981,19 +912,21 @@
     <!-- ------------------------------- End of map section --------------------------------------------- -->
 
     <!-- ---------------------------------------------- Testimonials section -------------------------- -->
-<br><br>
+    <br><br>
     <section class="testimonial-section">
         <div class="text-center p-4 testiheader">
-            <h3>What Says Most Of Our</h3> <br> <h2>Happy <span class="singletesticlient">Clients</span></h2>
+            <h3>What Says Most Of Our</h3> <br>
+            <h2>Happy <span class="singletesticlient">Clients</span></h2>
         </div>
 
         <div class="testi-dash"></div>
 
         <div id="carouselExampleIndicators11" class="carousel slide mt-3" data-bs-ride="carousel">
             <div class="carousel-indicators testi-carouse-indicator">
-                <button type="button" data-bs-target="#carouselExampleIndicators11" data-bs-slide-to="0" class="carouse-indicator active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators11" data-bs-slide-to="0"
+                    class="carouse-indicator active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators11" data-bs-slide-to="1"
-                class="carouse-indicator" aria-label="Slide 2"></button>
+                    class="carouse-indicator" aria-label="Slide 2"></button>
             </div>
             <div class="carousel-inner testi-carousel-inn container">
                 <div class="carousel-item active">
@@ -1011,7 +944,8 @@
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
                                 </div>
-                                <p>First Lorem ipsum dolor, sit amet consecem ipsa? Cum explicabo similique fugiat quos a nam sint, iusto temporibus natus, cupiditate sed beatae aliquid. Ex.</p>
+                                <p>First Lorem ipsum dolor, sit amet consecem ipsa? Cum explicabo similique fugiat quos
+                                    a nam sint, iusto temporibus natus, cupiditate sed beatae aliquid. Ex.</p>
                                 <div class="h4">Person 1</div>
                                 <span>Finance Mininster</span>
                                 <div class="left-quotee-div">
@@ -1031,7 +965,9 @@
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star-half"></i>
                                 </div>
-                                <p>Second Lorem ipsum dolor, sit amet consectetur adipisicore tenetur eius ab dolorem ipsa? Cum explicabo similique fugiat quos a nam sint, iusto temporibus natus, cupiditate sed beatae aliquid. Ex.</p>
+                                <p>Second Lorem ipsum dolor, sit amet consectetur adipisicore tenetur eius ab dolorem
+                                    ipsa? Cum explicabo similique fugiat quos a nam sint, iusto temporibus natus,
+                                    cupiditate sed beatae aliquid. Ex.</p>
                                 <div class="h4">Person 2</div>
                                 <span>Manager</span>
                                 <div class="left-quotee-div">
@@ -1052,18 +988,19 @@
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star-half"></i>
                                 </div>
-                                <p>third Lorem ipsum dolor, sit amet consectetur adipisis, cupiditate sed beatae aliquid. Ex.</p>
+                                <p>third Lorem ipsum dolor, sit amet consectetur adipisis, cupiditate sed beatae
+                                    aliquid. Ex.</p>
                                 <div class="h4">Person 3</div>
                                 <span>Deputy Chief Minister</span>
                                 <div class="left-quotee-div">
                                     <i class="fa-solid fa-quote-left left-quotee"></i>
                                 </div>
                             </div>
-                        </div>               
+                        </div>
                     </div>
                 </div>
                 <div class="carousel-item">
-                <div class="row carouse-row">
+                    <div class="row carouse-row">
                         <div class="col-lg-4 col-md-12 col-sm-12 text-center p-4 mb-4">
                             <div class="carouse-content">
                                 <div class="right-quotee-div">
@@ -1077,7 +1014,8 @@
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
                                 </div>
-                                <p>First Lorem ipsum dolor, sit amet consectetur adipisimilique fugiat quos a nam sint, iusto temporibus natus, cupiditate sed beatae aliquid. Ex.</p>
+                                <p>First Lorem ipsum dolor, sit amet consectetur adipisimilique fugiat quos a nam sint,
+                                    iusto temporibus natus, cupiditate sed beatae aliquid. Ex.</p>
                                 <div class="h4">Person 4</div>
                                 <span>Company Secretary</span>
                                 <div class="left-quotee-div">
@@ -1098,7 +1036,9 @@
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star-half"></i>
                                 </div>
-                                <p>Second Lorem ipsum dolor, sit amet consectsicing elit. Labore tenetur eius ab dolorem ipsa? Cum explicabo similique fugiat quos a nam sint, iusto temporibus natus, cupiditate sed beatae aliquid. Ex.</p>
+                                <p>Second Lorem ipsum dolor, sit amet consectsicing elit. Labore tenetur eius ab dolorem
+                                    ipsa? Cum explicabo similique fugiat quos a nam sint, iusto temporibus natus,
+                                    cupiditate sed beatae aliquid. Ex.</p>
                                 <div class="h4">Person 5</div>
                                 <span>Prime Minister</span>
                                 <div class="left-quotee-div">
@@ -1119,7 +1059,9 @@
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
                                 </div>
-                                <p>third Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore tenetur eius ab dolorem ipsa? Cum explicabo similique fugiat quos a nam sint, iusto temporibus natus, cupiditate sed beatae aliquid. Ex.</p>
+                                <p>third Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore tenetur eius
+                                    ab dolorem ipsa? Cum explicabo similique fugiat quos a nam sint, iusto temporibus
+                                    natus, cupiditate sed beatae aliquid. Ex.</p>
                                 <div class="h4">Person 6</div>
                                 <span>Manager</span>
                                 <div class="left-quotee-div">
@@ -1127,7 +1069,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
@@ -1225,8 +1167,8 @@
     </div>
 
     <script>
-        var subscription = new bootstrap.Modal(document.getElementById('subscription'), {})
-        subscription.show()
+    var subscription = new bootstrap.Modal(document.getElementById('subscription'), {})
+    subscription.show()
     </script>
 
 

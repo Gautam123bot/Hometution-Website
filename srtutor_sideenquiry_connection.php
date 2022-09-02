@@ -5,7 +5,7 @@ include('conn.php');
 
         if(isset($_POST['submit']))
         {
-         $sql = "INSERT INTO contact(name, phone, email, message)
+         $sql = "INSERT INTO enquiry_side(name, phone, email, message)
             VALUES ('".$_POST["name"]."', '".$_POST["phone"]."','".$_POST["email"]."','".$_POST["message"]."')";
 
          $result = mysqli_query($conn,$sql);
