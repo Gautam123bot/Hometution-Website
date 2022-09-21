@@ -79,11 +79,11 @@
                                                 <div class="signlabel"><label for="">Parent's Name</label></div>
                                                 <input type="text" name="" id="" placeholder="Parent's Name">
                                             </div>
-                                            <div class="col-sm-12 col-md-12 col-lg-12">
+                                            <!-- <div class="col-sm-12 col-md-12 col-lg-12">
                                                 <div class="signlabel"><label for="">Parent's Email(optional)</label>
                                                 </div>
                                                 <input type="email" name="" id="" placeholder="Parent's Email">
-                                            </div>
+                                            </div> -->
                                             <div class="col-sm-12 col-md-12 col-lg-12">
                                                 <div class="signlabel"><label for="">Password</label></div>
                                                 <input type="password" name="" id=""
@@ -116,11 +116,11 @@
                                                     <option value="30">Robotics</option>
                                                 </select>
                                             </div>
-                                            <div class="col-sm-12 col-md-12 col-lg-12">
+                                            <!-- <div class="col-sm-12 col-md-12 col-lg-12">
                                                 <div class="signlabel"><label for="">Apply Coupan(optional)</label>
                                                 </div>
                                                 <input type="text" name="" id="" placeholder="Enter Coupon Code If Any">
-                                            </div>
+                                            </div> -->
                                             <div class="col-sm-12 col-md-12 col-lg-12">
                                                 <button class="signupbtn">Continue</button>
                                             </div>
@@ -293,7 +293,7 @@
                             <hr class="dropdown-divider">
                         </li>
                         <li>
-                        <a href="get-info.php" class="dropdown-item single-item">Get Info</a>
+                            <a href="get-info.php" class="dropdown-item single-item">Get Info</a>
                         </li>
                         <li>
                             <hr class="dropdown-divider">

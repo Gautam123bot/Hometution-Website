@@ -95,7 +95,27 @@
     
 
 
-
+    <section class="free-quote-section">
+        <div class="container free-quote">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-6 free-quote-col1">
+                    <h1>Get Your Free Quote</h1>
+                    <p>Kindly Fill out this form we indus packers and movers will contact you as soon as possible. thanks</p>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-6 free-quote-col2">
+                    <form action="">
+                        <input type="text" placeholder="Enter Your Name" name="name">
+                        <input type="number" placeholder="Enter Phone Number" name="name">
+                        <input type="text" placeholder="Enter Starting City" name="name">
+                        <input type="text" placeholder="Enter Destination City" name="name">
+                        <textarea name="query" id="" cols="30" rows="3" placeholder="Any Query"></textarea>
+                        <input type="email" name="email" id="" placeholder="Enter Email Id">
+                        <button>Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 
  
     <!-- <div class="curve-section">
